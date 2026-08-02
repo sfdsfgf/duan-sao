@@ -1,0 +1,8 @@
+# IP 段端口 + 浏览器标题扫描器依赖
+# 安装方式：pip install -r requirements.txt
+
+# 核心依赖：异步 HTTP 请求和 TCP 连接
+aiohttp>=3.8.0
+
+# SOCKS5 / SOCKS4 代理支持（可选但建议安装）
+aiohttp-socks>=0.8.0
